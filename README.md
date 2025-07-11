@@ -74,12 +74,13 @@ export token='your-personal-access-token'
 ```bash
 ./list-users.sh facebook react
 ```
-### 🔐 Security Note
-->Do not hardcode your token into the script<br>
-->Always use export to inject credentials temporarily during the session<br>
-->Make sure your PAT has the correct scopes:<br>
-    -repo for private repositories<br>
-    -read:org for organization-level data<br>
+## 🔐 Security Note
+
+- **Do not** hardcode your token into the script  
+- Always use `export` to inject credentials temporarily during the session  
+- Make sure your PAT has the correct scopes:  
+  - `repo` for private repositories  
+  - `read:org` for organization-level data
     
 ### 📄 License
 This project is open-source and available under the MIT License
